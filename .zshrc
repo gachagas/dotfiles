@@ -112,3 +112,7 @@ export PATH="$PATH:/home/gachagas/.local/bin"
 alias f="poetry run ruff format"
 alias r="poetry run python main.py"
 alias ruff_lint="ruff check --select I --fix"
+
+alias k="kubectl"
+
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
