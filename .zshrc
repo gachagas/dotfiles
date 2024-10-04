@@ -100,3 +100,8 @@ eval "$(pyenv init -)"
 
 # Go
 # export PATH=$PATH:/usr/local/go/bin
+
+. "$HOME/.asdf/asdf.sh"
+autoload -U +X bashcompinit && bashcompinit
+complete -o nospace -C /usr/bin/terraform terraform
+
