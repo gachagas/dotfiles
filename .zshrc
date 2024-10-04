@@ -105,3 +105,10 @@ eval "$(pyenv init -)"
 autoload -U +X bashcompinit && bashcompinit
 complete -o nospace -C /usr/bin/terraform terraform
 
+# Created by `pipx` on 2024-08-13 02:43:21
+export PATH="$PATH:/home/gachagas/.local/bin"
+
+
+alias f="poetry run ruff format"
+alias r="poetry run python main.py"
+alias ruff_lint="ruff check --select I --fix"
