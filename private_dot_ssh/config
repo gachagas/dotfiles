@@ -10,7 +10,7 @@ IdentityFile ~/.ssh/github-tm
 User git
 IdentitiesOnly yes
 
-Host bitbucket-temasek
+Host bitbucket.org
 HostName bitbucket.org
 IdentityFile ~/.ssh/bitbucket-temasek
 User git
