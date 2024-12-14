@@ -1,6 +1,0 @@
-[tools]
-node = "22"
-starship = "latest"
-stripe = "latest"
-usage = "latest"
-zoxide = "latest"

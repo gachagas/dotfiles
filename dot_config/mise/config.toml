@@ -1,5 +1,7 @@
 [tools]
 node = "22"
+snyk = "latest"
 starship = "latest"
-stripe = "latest"
 usage = "latest"
+uv = "latest"
+zoxide = "latest"
