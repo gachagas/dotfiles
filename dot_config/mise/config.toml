@@ -1,7 +1,11 @@
 [tools]
+aws-cli = "latest"
+azure-cli = "latest"
 node = "22"
+python = "3.11"
 snyk = "latest"
 starship = "latest"
+terraform = "latest"
 usage = "latest"
 uv = "latest"
 zoxide = "latest"
