@@ -72,8 +72,8 @@ ZSH_THEME="robbyrussell"
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
 plugins=(
-    # zsh-syntax-highlighting # install this manually
-    # zsh autocompleteions
+    # zsh-syntax-highlighting # broken
+    # zsh autocompleteions # redundant
     aws
     azure
     direnv
@@ -86,7 +86,7 @@ plugins=(
     terraform
     starship
     zoxide
-    zsh-autosuggestions
+    zsh-autosuggestions #manual install
     zsh-interactive-cd
 )
 
@@ -123,4 +123,4 @@ source $ZSH/oh-my-zsh.sh
 
 # hello worldi
 
-alias fzf="fzf --preview='cat {}'"
+alias fzfp="fzf --preview='cat {}'"
