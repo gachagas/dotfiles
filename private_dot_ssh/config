@@ -1,0 +1,17 @@
+Host github.com
+HostName github.com
+IdentityFile ~/.ssh/github-personal
+User git
+IdentitiesOnly yes
+
+Host github-tm
+HostName github.com
+IdentityFile ~/.ssh/github-tm
+User git
+IdentitiesOnly yes
+
+Host bitbucket-temasek
+HostName bitbucket.org
+IdentityFile ~/.ssh/bitbucket-temasek
+User git
+IdentitiesOnly yes
