@@ -4,10 +4,11 @@
 A personal collection of dotfiles and configuration files managed using [GNU Stow](https://www.gnu.org/software/stow/).
 
 
-## Linux
+## 🐧 Linux
 
 1. Install using `install.sh`
 2. "stow" (there is a better way to sayt it) singh stow.sh
-## MACOS
+## 🍎 MACOS
 
-under construction (construction icon)
+🚧 Under construction
+
