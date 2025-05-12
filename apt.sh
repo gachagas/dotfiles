@@ -3,6 +3,7 @@ set -euxo pipefail
 
 
 packages=(
+    fzf
     jq
     stow
     tree

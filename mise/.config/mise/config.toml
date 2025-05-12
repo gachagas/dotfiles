@@ -1,2 +1,5 @@
 [tools]
+lazydocker = "0.24.1"
+lazygit = "0.50.0"
+python = "3.13.3"
 zoxide = "0.9.7"
