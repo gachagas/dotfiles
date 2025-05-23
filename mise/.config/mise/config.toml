@@ -1,5 +1,10 @@
 [tools]
+bat = "0.25.0"
+eza = "0.21.3"
+just = "1.40.0"
 lazydocker = "0.24.1"
 lazygit = "0.50.0"
+neovim = "0.11.1"
+node = "lts"
 python = "3.13.3"
 zoxide = "0.9.7"
