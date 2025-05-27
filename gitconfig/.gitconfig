@@ -35,7 +35,7 @@
 [log]
 	abbrevCommit = true
 	graphColors = blue,yellow,cyan,magenta,green,red
-[page]
+[pager]
 	branch = false
 	tag = false
 [pull]
