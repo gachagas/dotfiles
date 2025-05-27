@@ -41,6 +41,8 @@
 [pull]
 	default = current
 	rebase = true
+[push]
+	autoSetupRemote = true
 [rebase]
 	autoStash = true
 	missingCommitsCheck = warn
