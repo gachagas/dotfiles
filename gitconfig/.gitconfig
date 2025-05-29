@@ -55,3 +55,6 @@
 [user]
 	name = Gerlito Chagas
 	email = gerlito.chagas@gmail.com
+
+[includeif "gitdir:~/tm/"]
+	path = ~/tm/.gitconfig
