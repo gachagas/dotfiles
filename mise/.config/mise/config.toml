@@ -8,4 +8,8 @@ neovim = "0.11.1"
 node = "lts"
 python = "3.13.3"
 starship = "1.23.0"
+uv = "0.7.8"
 zoxide = "0.9.7"
+
+[settings]
+idiomatic_version_file_enable_tools = ["python"]
