@@ -115,3 +115,9 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white) %an %ar%C(auto) %D%n%s%n'"
+
+
+echo $TERM_PROGRAM
+if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
+  cd ~/Developer
+fi
