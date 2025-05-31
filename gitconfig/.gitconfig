@@ -58,3 +58,6 @@
 
 [includeif "gitdir:~/tm/"]
 	path = ~/tm/.gitconfig
+
+[includeif "gitdir:~/Developer/tm/"]
+	path = ~/tm/.gitconfig
