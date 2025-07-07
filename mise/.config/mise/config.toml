@@ -1,16 +1,16 @@
 [tools]
-bat = "0.25.0"
-eza = "0.21.3"
-just = "1.40.0"
-lazydocker = "0.24.1"
-lazygit = "0.50.0"
-neovim = "0.11.1"
+bat = "latest"
+eza = "latest"
+just = "latest"
+lazydocker = "latest"
+lazygit = "latest"
+neovim = "latest"
 node = "lts"
-python = "3.13.3"
-starship = "1.23.0"
-tmux = "3.5a"
-uv = "0.7.8"
-zoxide = "0.9.7"
+python = "latest"
+starship = "latest"
+usage = "2.1.1"
+uv = "latest"
+zoxide = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["python"]
