@@ -1,6 +1,12 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
+
+if [[ "$OSTYPE" == "darwin"* ]]; then
+  eval "$(/opt/homebrew/bin/brew shellenv)"
+  echo "✅ Brew is installed"
+fi
+
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -76,10 +82,12 @@ plugins=(
     git
     gitignore
     git-commit
+    kubectl
+    helm
     mise
     starship
     zoxide # add via mise first
-    zsh-autosuggestions
+    # zsh-autosuggestions not needed for homebrew
     zsh-interactive-cd
     )
 
@@ -129,3 +137,5 @@ fpath=(/Users/gerlitochagas/.docker/completions $fpath)
 autoload -Uz compinit
 compinit
 # End of Docker CLI completions
+
+export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
