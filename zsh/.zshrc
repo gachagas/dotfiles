@@ -5,6 +5,11 @@
 if [[ "$OSTYPE" == "darwin"* ]]; then
   eval "$(/opt/homebrew/bin/brew shellenv)"
   echo "✅ Brew is installed"
+
+  # alt + n zeellij fix for ghostty
+  #https://github.com/ghostty-org/ghostty/discussions/3207#discussioncomment-14186031
+  bindkey "^[[1;3D" backward-word  # Option + Left
+  bindkey "^[[1;3C" forward-word   # Option + Right
 fi
 
 # Path to your Oh My Zsh installation.
