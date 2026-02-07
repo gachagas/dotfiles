@@ -1,17 +1,6 @@
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-
-if [[ "$OSTYPE" == "darwin"* ]]; then
-  eval "$(/opt/homebrew/bin/brew shellenv)"
-  echo "✅ Brew is installed"
-
-  # alt + n zeellij fix for ghostty
-  #https://github.com/ghostty-org/ghostty/discussions/3207#discussioncomment-14186031
-  bindkey "^[[1;3D" backward-word  # Option + Left
-  bindkey "^[[1;3C" forward-word   # Option + Right
-fi
-
 # Path to your Oh My Zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
 
@@ -126,21 +115,6 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
-
-alias gl="git log --all --graph --pretty=format:'%C(magenta)%h %C(white) %an %ar%C(auto) %D%n%s%n'"
-
-# Mac Stuff
-
+eval "$(mise activate zsh)"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
-
-if [[ "$TERM_PROGRAM" == "ghostty" ]]; then
-  cd ~/Developer
-fi
-
-# The following lines have been added by Docker Desktop to enable Docker CLI completions.
-fpath=(/Users/gerlitochagas/.docker/completions $fpath)
-autoload -Uz compinit
-compinit
-# End of Docker CLI completions
-
-export PATH="${KREW_ROOT:-$HOME/.krew}/bin:$PATH"
+PATH="$PATH:/Users/gerlitochagas/Applications/Cursor.app/Contents/Resources/app/bin"
