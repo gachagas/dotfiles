@@ -115,6 +115,8 @@ source $ZSH/oh-my-zsh.sh
 # Example aliases
 # alias zshconfig="mate ~/.zshrc"
 # alias ohmyzsh="mate ~/.oh-my-zsh"
+alias p="/opt/homebrew/bin/podman"
+
 eval "$(mise activate zsh)"
 source $(brew --prefix)/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 PATH="$PATH:/Users/gerlitochagas/Applications/Cursor.app/Contents/Resources/app/bin"
